@@ -24,9 +24,12 @@ let fruitsJSON = `[
 let fruits = JSON.parse(fruitsJSON);
 
 /*** ОТОБРАЖЕНИЕ ***/
+fruitsList.innerHtml = "";
 
 // отрисовка карточек
 const display = () => {
+  fruitsList.innerHtml = "";
+  
   // TODO: очищаем fruitsList от вложенных элементов,
   // чтобы заполнить актуальными данными из fruits
 
@@ -132,3 +135,5 @@ addActionButton.addEventListener('click', () => {
   // необходимые значения берем из kindInput, colorInput, weightInput
   display();
 });
+
+
