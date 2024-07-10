@@ -33,6 +33,10 @@ button {
   max-width: fit-content;
 }
 
+button:active {
+  background-color: #016283;
+}
+
 input {
   margin: 5px 10px 5px 0;
   border: 0;
@@ -125,6 +129,30 @@ main {
 
 .fruit_lightbrown {
   background: #cd853f;
+}
+
+.fruit_red {
+  background: #f70202;
+}
+
+.fruit_orange {
+  background: #f8ac20;
+}
+
+.fruit_crimson {
+  background: #be0c57;
+}
+
+.fruit_yellow-orange {
+  background: #ffbc04;
+}
+
+.fruit_yellow-green {
+  background: #d8db05;
+}
+
+.fruit_blue {
+  background: blue;
 }
 
 .fruit__info {
